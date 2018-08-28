@@ -19,18 +19,12 @@
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-
 							<!-- Header -->
-								<header id="header">
-									<a href="index.html" class="logo"><strong>Eliza Chen</strong> Cogito, ergo sum</a>
-									<ul class="icons">
-										<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon fa-snapchat-ghost"><span class="label">Snapchat</span></a></li>
-										<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon fa-medium"><span class="label">Medium</span></a></li>
-									</ul>
-								</header>
+								<div id="header-wrapper" class="wrapper">
+									<div id="header">
+									<?php include("header.php");?>
+									</div>
+								</div>
 
 							<!-- Banner -->
 								<section id="banner">
@@ -51,29 +45,29 @@
 										<article>
 											<span class="icon fa-diamond"></span>
 											<div class="content">
-												<h3>Portitor ullamcorper</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+												<h3><a href="https://github.com/Elizaaaaa5/e-commerce-project">WONDER PLANNER</a></h3>
+												<p>E-Commerce Course Project</p>
 											</div>
 										</article>
 										<article>
 											<span class="icon fa-paper-plane"></span>
 											<div class="content">
-												<h3>Sapien veroeros</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+												<h3>MY MOODY</h3>
+												<p>Anonymous Chatting app for people who are in similiar mood. I just have a react-native framework now. Need an android phone.</p>
 											</div>
 										</article>
 										<article>
 											<span class="icon fa-rocket"></span>
 											<div class="content">
-												<h3>Quam lorem ipsum</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+												<h3>ZEALOU</h3>
+												<p>E-Commerce Website for antique store and personal sellers.</p>
 											</div>
 										</article>
 										<article>
 											<span class="icon fa-signal"></span>
 											<div class="content">
-												<h3>Sed magna finibus</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+												<h3>Space4Fun</h3>
+												<p>Any other side projects/games/programs</p>
 											</div>
 										</article>
 									</div>
@@ -100,8 +94,8 @@
 										<h2>Menu</h2>
 									</header>
 									<ul>
-										<li><a href="index.html">Home</a></li>
-										<li><a href="resume.html">Resume</a></li>
+										<li><a href="index.php">Home</a></li>
+										<li><a href="resume.php">Resume</a></li>
 										<li>
 											<span class="opener">Projects</span>
 											<ul>
@@ -110,7 +104,7 @@
 												<li><a href="#">Bitty Money</a></li>
 											</ul>
 										</li>
-										<li><a href="playground.html">Playground</a></li>
+										<li><a href="playground.php">Playground</a></li>
 									</ul>
 								</nav>
 
@@ -130,7 +124,7 @@
 										</article>
 									</div>
 									<ul class="actions">
-										<li><a href="course.html" class="button">More</a></li>
+										<li><a href="course.php" class="button">More</a></li>
 									</ul>
 								</section>
 
